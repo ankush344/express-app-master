@@ -1,0 +1,127 @@
+img {
+    display: block;
+    max-width: 15%;
+    min-width: 15%;
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+}
+
+.web-techs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web_techs__title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.web-tech__images {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.student,
+.single-student {
+    margin: 25px 0;
+    padding: 10px;
+}
+
+.student p {
+    margin: 0;
+    padding: 0;
+}
+
+.student {
+    background: wheat;
+    color: white;
+    transition: background-color 0.5s ease;
+    /* background: orange; */
+}
+
+.student:hover {
+    background: rgb(250, 212, 143);
+}
+
+
+.bio {
+    border: 1px solid rgb(247, 240, 240);
+    font-weight: 300;
+    padding: 25px;
+    line-height: 1.5;
+    color: white;
+    background: white;
+    color: black;
+}
+
+
+/* === RESPONSIVE === */
+@media (max-width: 760px) {
+
+    .header-wrapper,
+    .main-wrapper,
+    .footer-wrapper {
+        margin: auto;
+        width: 95%;
+    }
+
+    .header-wrapper__nav {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .header-wrapper__nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-wrapper__nav ul li {
+        margin: 10px auto;
+        border: 1px solid orange;
+        width: 100%;
+        padding: 5px;
+
+    }
+
+    .student p {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+
+    }
+
+    input {
+        width: 100%;
+    }
+
+    form {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    img {
+        display: block;
+        max-width: 50%;
+        min-width: 50%;
+        height: auto;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+
+    article {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
